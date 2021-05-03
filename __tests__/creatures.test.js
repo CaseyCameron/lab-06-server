@@ -28,6 +28,6 @@ it('GET /api/creatures', async () => {
   const response = await request.get('/api/creatures');
 
   expect(response.status).toBe(200); // 200 = OK
-  //expect(response.body).toEqual(expected);
+  expect(response.body).toEqual(expected);
 
 });
